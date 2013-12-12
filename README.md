@@ -8,6 +8,8 @@ Written by Ashok Narayanan and Won So
 
 This software suite provides Perl scripts that can be used to traslate HTTP URL traces into NDN names.
 
+extract_urls.sh: This script reads gzipped IRCache trace files in the current directlry and convert them into plain text HTTP URLs by adding ".urls" at the end of each trace file name.
+
 url2ccnf.pl: This script converts plain text files with HTTL URLs into CCNF (Common Componentized Name Format - see another document) format files simultaneously generating the historgram of named components in the input files.
 
 build_fib.pl: Given a set of names from CCNF files, this script builds a FIB name trace that satifies a specific component name distribution. 
